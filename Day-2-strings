@@ -1,0 +1,90 @@
+name = "Ashwini"
+college = 'AVN'
+password = "Python@123"
+sentence = "I love Python"
+phone = "9876543210"
+
+#multiple lines
+message = """
+Hello
+Welcome
+Python
+"""
+
+#Positive Indexing
+name = "Python"
+print(name[0])
+
+#Negative Indexing
+name = "Python"
+print(name[-1])
+
+#String length
+name = "Ashwini"
+print(len(name))
+
+
+#String Slicing
+name = "Ashwini"
+print(name[0:3])
+
+#String Slicing with step
+name = "Ashwini"
+print(name[0:7:2])
+
+#String Slicing with negative step
+name = "Ashwini"
+print(name[6:0:-1])
+
+
+#String methods
+name = "ashwini"
+print(name.upper())
+print(name.lower())
+print(name.capitalize())
+print(name.title())
+print(name.count('a'))
+print(name.find('h'))
+print(name.replace('a', 'A'))
+print(name.startswith('a'))
+print(name.endswith('i'))
+print(name.isalpha())
+print(name.isdigit())
+print(name.isalnum())
+print(name.swapcase())
+
+
+#strip
+name = "   Ashwini   "
+print(name.strip())
+#lsstrip
+name = "   Ashwini"
+print(name.lstrip())
+#rsstrip
+name = "Ashwini   "
+print(name.rstrip())
+
+#count
+name = "Ashwini"
+print(name.count('i'))
+
+#string formatting
+name = "Ashwini"
+age = 20
+print("My name is", name)
+print("My age is", age)
+
+#string concatination
+name = "Ashwini"
+age = 20
+print("My name is " + name + " and my age is " + str(age))
+
+#string formatting using f-string
+name = "Ashwini"
+age = 20
+print(f"My name is {name} and my age is {age}")
+
+#string formatting using format method
+name = "Ashwini"
+age = 20
+print("My name is {} and my age is {}".format(name, age))
