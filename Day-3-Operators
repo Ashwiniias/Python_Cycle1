@@ -1,0 +1,29 @@
+#Arithemetic Operators
+a = 10
+b = 20
+print(a + b)
+print("Hello" + " World")
+print(20 - 8)
+print(6 * 4)
+print("Hi " * 3)
+print(10 / 2)
+print(10 // 3)
+print(10 % 3)
+print(2 ** 3)
+
+#Comparision Operators
+print(2 == 3)
+print(2 != 3)
+print(10 == 10)
+print(20 > 10)
+print(20 < 10)
+print(20 >= 10)
+print(20 <= 10)
+
+#Arithemetic Operators
+a = 10
+a += 10
+a -= 10
+a *= 5
+a /= 2
+a %= 6
